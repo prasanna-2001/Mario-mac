@@ -41,27 +41,28 @@ body{
     visibility: hidden;
     position: relative;
     background: white;
-    width: 300px;
-    border-radius: 38px;
+    width: 30vw;
+    border-radius: 5vw;
     border: 5px solid black;
     height: fit-content;
     top: 30vh;
     left: 40vw;
-    font-size: 55px;
+    font-size: 5vw;
     text-align: center;
 }
 
 
 #scorecont {
     background: hotpink;
-    top: 10px;
-    left: 10px;
-    font-size: 24px;
+    top: 5vh;
+    left: 5vh;
+    font-size: 4vh;
     text-align: center;
     position: relative;
-    height: 33px;
-    width: 160px;
-    border: 5px solid black;
+    height: 5vh;
+    width: 16vw;
+    border-radius: 5vh;
+    border: 0.8vh solid black;
 }
 /*anomatio class and animation  for hero*/
 .animateHero{
