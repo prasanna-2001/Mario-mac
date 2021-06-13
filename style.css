@@ -40,11 +40,28 @@ body{
 .gameover {
     visibility: hidden;
     position: relative;
-    width: fit-content;
+    background: white;
+    width: 300px;
+    border-radius: 38px;
+    border: 5px solid black;
     height: fit-content;
     top: 30vh;
     left: 40vw;
+    font-size: 55px;
     text-align: center;
+}
+
+
+#scorecont {
+    background: hotpink;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    height: 33px;
+    width: 160px;
+    border: 5px solid black;
 }
 /*anomatio class and animation  for hero*/
 .animateHero{
