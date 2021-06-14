@@ -21,7 +21,7 @@ body{
     border-radius: 5vw;
     border: 5px solid black;
     height: fit-content;
-    top: 50vh;
+    top: 40vh;
     left: 36vw;
     font-size: 5vw;
     text-align: center;
@@ -55,6 +55,21 @@ body{
     font-size: 10vh;
     display: inline-block;
     position: absolute;
+}
+
+span {
+    font-family: 'Press Start 2p',cursive;
+    position: absolute;
+    bottom: 13.5vh;
+    font-size: 2vh;
+}
+.naam {
+    font-family: 'Press Start 2p',cursive;
+    position: absolute;
+    bottom: 33.5vh;
+    left: 56vh;
+    font-size: 8vh;
+    font-weight: bolder;
 }
 
 /* .vsAni{
