@@ -57,20 +57,6 @@ body{
     position: absolute;
 }
 
-span {
-    font-family: 'Press Start 2p',cursive;
-    position: absolute;
-    bottom: 13.5vh;
-    font-size: 2vh;
-}
-.naam {
-    font-family: 'Press Start 2p',cursive;
-    position: absolute;
-    bottom: 33.5vh;
-    left: 56vh;
-    font-size: 8vh;
-    font-weight: bolder;
-}
 
 /* .vsAni{
     animation: vsa infinite;
