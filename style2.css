@@ -20,7 +20,7 @@ body{
     background-size: contain; /*img bahar ja ri thi width ad hight se 
     so usko fit inside krne ke liye cover try kiya but  kart ra tha so ontain try kiya to kaam kar gaya*/
     position: absolute;
-    width:8vh;
+    width:5vw;
     height: 10vh;
     bottom:13.5vh; /*13.5vh*/
     left:4vw;
@@ -44,14 +44,31 @@ body{
     background: white;
     width: 30vw;
     border-radius: 5vw;
-    border: 5px solid black;
+    border: 1vw solid black;
     height: fit-content;
     top: 30vh;
     left: 40vw;
     font-size: 5vw;
     text-align: center;
 }
-
+.redirect {
+    visibility: hidden;
+    position: absolute;
+    top: 55vh;
+    left: 50vw;
+}
+#restart {
+    position: absolute;
+    width: 32vw;
+    background: white;
+    border-radius: 5vw;
+    border: 1vw solid black;
+    height: fit-content;
+    top: -1vh;
+    left: -10vw;
+    font-size: 5vw;
+    text-align: center;
+}
 
 #scorecont {
     background: hotpink;
@@ -132,33 +149,34 @@ body{
 @keyframes herodeath{
 
     10%{
-        bottom: 20vw;
+        bottom: 20vh;
     }
     20%{
-        bottom: 30vw;
+        bottom: 30vh;
     }
     30%{
-        bottom:13.5vw;
+        bottom:13.5vh;
     }
     40%{
-        bottom:9vw;
+        bottom:9vh;
     }
     50%{
-        bottom:5vw;
+        bottom:5vh;
     }
     60%{
-        bottom: 0vx;
+        bottom: 0vh;
     }
     70%{
-        bottom: -5vw;
+        bottom: -5vh;
     }
     80%{
-        bottom:-7vw;
+        bottom:-7vh;
     }
     90%{
-        bottom:-10vw;
+        bottom:-10vh;
     }
     100%{
-        bottom:-10vw;
+        left: 10vw;
+        bottom:13.5vh;
     }
 }

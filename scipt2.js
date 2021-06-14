@@ -37,7 +37,7 @@ setInterval(() => {
     hero = document.querySelector('.hero');
     gameover = document.querySelector('.gameover');
     villan = document.querySelector('.villan');
-
+    redirect = document.querySelector('.redirect');
 
     /*to convert into integer use parseint*/
     hx = parseInt(window.getComputedStyle(hero,null).getPropertyValue('left'));
@@ -55,7 +55,7 @@ setInterval(() => {
         //to add deadth animation
         hero = document.querySelector('.hero');
         hero.classList.add('deathHero');
-
+        redirect.style.visibility = 'visible';
 
         audiodie.play();
         setTimeout(() => {
