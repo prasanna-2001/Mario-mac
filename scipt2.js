@@ -51,10 +51,19 @@ setInterval(() => {
     if(offsetx< 20 && offsety< 23){
         gameover.style.visibility = 'visible';
         villan.classList.remove('animateVillan');
+         
+        //to add deadth animation
+        hero = document.querySelector('.hero');
+        hero.classList.add('deathHero');
+
+
         audiodie.play();
         setTimeout(() => {
             audiobg.pause();
         }, 1000);
+
+
+
     }
     else if(offsetx<60 && cross){
         score=score+1;
