@@ -50,11 +50,11 @@ body{
 
 .vs {
     font-family: 'Press Start 2p',cursive;
-    top: 23vh;
-    left: 49vw;
+    top: 20vh;
+    left: 47vw;
+    font-size: 10vh;
     display: inline-block;
     position: absolute;
-    
 }
 
 /* .vsAni{
