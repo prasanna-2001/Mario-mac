@@ -74,7 +74,7 @@ setInterval(() => {
         }, 1000);
         setTimeout(() => {
             animationDuration = parseFloat(window.getComputedStyle(villan,null).getPropertyValue('animation-duration'));
-            newDuration = animationDuration - 0.1;
+            newDuration = animationDuration - 0.05;
             villan.style.animationDuration = newDuration + 's';
             console.log("nwe dur" , newDuration);
         }, 500);
