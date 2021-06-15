@@ -55,6 +55,7 @@ body{
     font-size: 10vh;
     display: inline-block;
     position: absolute;
+    animation: vsa 3s steps(60, end) infinite;
 }
 
 span {
@@ -74,22 +75,11 @@ span {
 
 
 /* .vsAni{
-    animation: vsa infinite;
-} 
+    animation: vsa 4s linear infinite;;
+}  */
 @keyframes vsa{
-    25%{
-        transform: rotate(90);
-        top:26vw;
-    }
-    50%{
-        transform: rotate(180);
-        top: 23vh;
-    }
-    75%{
-        transform: rotate(270);
-        top: 30vh;
-    }
     100%{
-        transform: rotate(360);
+        transform:rotate(360deg)
     }
-} */
+    
+}
